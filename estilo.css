@@ -1,14 +1,15 @@
-
 * {
 	margin: 0;
 	padding:0;
 	box-sizing: border-box;
 	font-family: 'Poppins', sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
 	background: #1f242d;
 	color: #fff;
+
 }
 
 .header {
@@ -17,7 +18,7 @@ body {
 	left: 0;
 	width: 100%;
 	padding: 20px 10%;
-	background: transparent;
+	background-color: #1f242d;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -60,7 +61,7 @@ body {
 
 .home {
 	position: relative;
-	width: 100%;
+	width: 98%;
 	height: 100vh;
 	display: flex;
 	justify-content: space-between;
@@ -255,8 +256,205 @@ body {
 
 
 .about {
-	display: inline-flex;
-	background-color: red;
-	width: 1000px;
-	height: 400px;
+	margin-left: 10%;
+	margin-right: 10%;
+
+	width: 80%;
+	height: 700px;
+}
+
+.heading_bio {
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	color: #0ef;
+}
+
+
+.about .bio{
+	margin-top: 1rem;
+}
+
+
+
+
+.about .biography p{
+	
+	max-width: 70rem;
+	line-height: 1.5rem;
+	font-size: 23px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: center;
+}
+
+.bio {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	margin-top: 80px;
+}
+
+
+.bio h3 {
+	
+	text-decoration: none;
+	font-size: 16px;
+	background: transparent;
+	border: 2px solid #0ef;
+	padding: 15px 28px;
+	border-radius: 40px;
+	box-shadow: 0 0 10px #0ef;
+	letter-spacing: 1px;
+	margin-top: 40px;
+
+
+
+}
+
+.heading_skills {
+	/*margin-top: 2rem;*/
+	margin-bottom: 3rem;
+	text-align: center;
+	justify-content: center;
+
+}
+
+.heading_skills span{
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	color: #0ef;
+}
+
+
+.progress_box{
+	justify-content: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	width: 80%;
+	height: 700px;
+
+}
+
+
+.progress_box .progress {
+	text-decoration: none;
+	font-size: 16px;
+	
+	border: 2px solid #0ef;
+	padding: 0px 78px;
+	border-radius: 40px;
+	box-shadow: 0 0 10px #0ef;
+	letter-spacing: 1px;
+	margin-top: 40px;
+
+	}
+
+
+
+.progress {
+ 
+margin-left: 55px;
+margin-right: 55px;
+
+}
+.progress0{
+	display: flex;
+	font-size: 20px;
+	margin-left: 30px;
+	align-items: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(50%);
+	letter-spacing: 2px;
+
+}
+.progress1 {
+	display: flex;
+	margin-right: 30px;
+	font-size: 20px;
+	justify-content: flex-end;
+	align-items: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	letter-spacing: 2px;
+
+}
+
+
+
+
+
+.mundial_proyect {
+	width: 300px;
+	height: 300px
+}
+
+.mundial_proyect:hover{
+	opacity: .2;
+	transition: .6s;
+}
+
+.portfolio{
+	text-align: center;
+	justify-content: center;
+}
+
+
+.heading_port {
+	margin-top: 0;
+	margin-bottom: 3rem;
+	text-align: center;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 3.5rem;
+	color: #0ef;
+
+}
+
+.img_heading {
+	color: white;
+	font-size: 20px;
+}
+
+
+								/*media qeries*/
+
+								@media .(max-width:991px){
+
+	html{
+		font-size: 55%;
+	}
+}
+
+
+								@media .(max-width:450px){
+
+	html{
+		font-size: 50%;
+	}
+
+.heading_bio {
+	font-size: 50%;
+	margin-top: 50px;
+}
+
+.heading_skills {
+	font-size: 55%;
+	margin-top: 50px;
+}
+.about {
+	font-size: 55%;
+}
+.skills {
+	font-size: 55%
+}
+.heading_port{
+	font-size: 50%;
+	margin-top: 50px;
+}
 }

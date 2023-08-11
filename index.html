@@ -11,35 +11,41 @@
 	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
+							<!--comienzo de seccion header-->
 	<header class="header">
-		<a href="#" class="logo">Portfolio.</a>
-
+			<a href="#" class="logo">Portfolio.</a>
+							<!--fin header</!-->
+							<!--comienzo de navbar-->
 		<nav class="navbar">
 			<a href="#" style="--i:1;" class="active">Home</a>
-			<a href="#" style="--i:2;" >About</a>
-			<a href="#" style="--i:3;" >Skill</a>
-			<a href="#" style="--i:4;" >Portfolio</a>
-			<a href="#" style="--i:5;" >Contact</a>
+			<a href="#about" style="--i:2;" >About</a>
+			<a href="#skills" style="--i:3;" >Skills</a>
+			<a href="#portfolio" style="--i:4;" >Portfolio</a>
+			
 		</nav>
 	</header>
-
-	<section class="home">
+							<!--fin nav bar-->
+							<!--comienzo section home-->
+	<section class="home" id="home">
 		<div class="home-content">
 			<h3>Hello I'ts Me</h3>
-			<h1>Agustin Silva</h1>
-			<h3>And im a <span class="multiple-text"></span></h3>
+			<h1>Agustín Silva</h1>
+			<h3>And i'm a <span class="multiple-text"></span></h3>
 			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. 
+				Welcome to my portfolio. <br> I am a technology and programming enthusiast, focused on web development. I am constantly learning and searching for my first opportunity in the IT world.
 			</p>
 			<div class="social-media">
-			<a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
-			<a href="#" style="--i:8;"><i class='bx bxl-instagram'></i></a>
-			<a href="#" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
-			<a href="#" style="--i:10;"><i class='bx bxl-github'></i></a> 
+			<a href="https://www.facebook.com/agustin.silva.1848/" target="_blank" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+
+			<a href="https://www.instagram.com/agusilva7/" target="_blank" style="--i:8;"><i class='bx bxl-instagram'></i></a>
+
+			<a href="https://www.linkedin.com/in/gabriel-agust%C3%ADn-silva-hern%C3%A1ndez-9a4a34202/" target="_blank" style="--i:9;"><i class='bx bxl-linkedin'></i></a>
+
+			<a href="https://github.com/AgustinGSH" target="_blank" style="--i:10;"><i class='bx bxl-github'></i></a> 
+
 			</div>
 
-			<a href="#" class="btn">Download CV</a>
+			<a download= "Curriculum" href="Cv_Asilva.pdf" class="btn">Download CV</a>
 		
 		</div>
 		
@@ -49,22 +55,66 @@
 			<img src="img/agus1.png" id="img1">
 		</div>
 	</section>
-
+							<!--fin section home-->
+							<!--comienzo section about-->
 	<section class="about" id="about">
 		
-		<div class="about-img">
+			<h1 class="heading_bio"><span class="underline"><u>Biography</u></span></h1>
+
+		<div class="biography">
 			
+			<p>I am a professional in sales and customer service, which has given me a lot of experience working in groups, dealing with people and a lot of soft skills. <br>My favorite hobby is playing soccer and spending time with friends. <br> A year ago I am dabbling in web development and perfecting my skills at the National Technological University of Argentina (UTN).</p>
+		</div>
+
+		<div class="bio">
+			<h3> <span>Name: </span>Gabriel Agustin Silva Hernandez</h3>
+			<h3> <span>Email: </span>silva.agustin@hotmail.com</h3>
+			<h3> <span>Adress: </span>Cordoba, Argentina</h3>
+			<h3> <span>Phone: </span>+54 03512384792</h3>
+			<h3> <span>Age: </span>29 years</h3>
+			<h3> <span>Experience: </span>1+ years of experience</h3>
+
+
+		</div>
+
+	</section>
+							<!--fin section about-->
+							<!--comienzo section skills-->
+	<section class="skills" id="skills">
+		
+			<h1 class="heading_skills"><span><u>Skills</u></span></h1>
+		
+		<div class="progress_box">
+			<div class="progress"><span class="progress0">Html5</span> <span class="progress1">%95</span></div>
+			<div class="progress"><span class="progress0">Css3</span> <span class="progress1">%80</span></div>
+			<div class="progress"><span class="progress0">Boostrap</span> <span class="progress1">%90</span></div>
+			<div class="progress"><span class="progress0">Javascript</span> <span class="progress1">%65</span></div>
+			<div class="progress"><span class="progress0">MySQL</span> <span class="progress1">%70</span></div>
+			<div class="progress"><span class="progress0">Php</span> <span class="progress1">%75</span></div>
+
+		</div>
+	</section> 
+
+							<!--fin section skills-->
+							<!--comienzo section portfolio-->
+
+	<section class="portfolio" id="portfolio">
+		<h1 class="heading_port"><span><u>Portfolio</u></span></h1>
+		
+		<div class="box_container">
+
+			<a href="https://gashhtml.000webhostapp.com/Portfolio/mundial%20proyect/" target="_blank">
+						<img src="img/messi4.jpg" class="mundial_proyect">
+			</a>			 
+			<p class="img_heading">Cuanto falta para el mundial?</p>
 		</div>
 
 
+	</section>						
 
+							<!--fin section portfolio-->
 
-
-
-	</section>
-
-
-<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-<script src="codigo.js"></script>
+			<script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+			<script src="codigo.js"></script>
 </body>
 </html>
